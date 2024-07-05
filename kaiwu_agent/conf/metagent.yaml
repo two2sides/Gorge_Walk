@@ -1,0 +1,15 @@
+
+# kaiwu_agent or drl or sail
+aisvr_type: drl
+
+
+# game_name and scene_name, 在不传入的情况下, 读取默认配置
+game_name: default
+scene_name: fish
+
+# use rainbow or not
+use_rainbow: False
+
+# 
+model_save_path: /data/projects/Metagent/send_model/model
+model_load_path: /data/projects/Metagent/recv_model/model
